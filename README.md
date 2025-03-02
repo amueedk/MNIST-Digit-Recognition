@@ -1,15 +1,15 @@
 # MNIST Digit Recognition Web App
 
-## 📌 Project Overview
+## Project Overview
 This project is a **Flask-based web application** that allows users to draw a handwritten digit on a web interface, which is then processed by a **Convolutional Neural Network (CNN)** trained on the MNIST dataset to predict the digit with confidence scoring.
 
-## 🚀 Features
+## Features
 - **Web-based UI** for user-friendly interaction
 - **Real-time digit recognition** using deep learning
 - **Flask API** for backend processing
 - **Confidence score output** for predictions
 
-## 📂 Project Structure
+## Project Structure
 ```
 MNIST-Digit-Recognition/
 │-- static/               # Frontend assets (JavaScript, CSS)
@@ -22,7 +22,7 @@ MNIST-Digit-Recognition/
 │-- mnist_cnn_model.h5    # Trained model file
 ```
 
-## 🔧 Setup Instructions
+## Setup Instructions
 ### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/amueedk/MNIST-Digit-Recognition.git

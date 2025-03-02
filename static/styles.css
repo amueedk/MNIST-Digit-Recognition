@@ -1,0 +1,111 @@
+/* Reset basic styles for a clean layout */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and page background */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    color: #333;
+}
+
+/* Container for the canvas and controls */
+.container {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Canvas styling */
+#canvas {
+    background-color: #eaeaea;
+    border: 2px solid #ccc;
+    width: 100%;
+    max-width: 256px;
+    height: 256px;
+    margin-bottom: 20px;
+    cursor: crosshair;
+    border-radius: 10px;
+}
+
+/* Buttons and controls */
+button {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+}
+
+/* Loading spinner */
+#loading {
+    display: none;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Result section */
+#result {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Clear canvas button */
+.clear-btn {
+    background-color: #f44336;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.clear-btn:hover {
+    background-color: #e53935;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    #canvas {
+        max-width: 200px;
+        height: 200px;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    button {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+}

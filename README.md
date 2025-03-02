@@ -40,7 +40,3 @@ python app.py
 ```
 The app will be available at `http://127.0.0.1:5000/`.
 
-## 📌 Authors
-- **Abdul Mueed Khan (2022013)**
-- **Muazzam Shah (2022312)**
-
